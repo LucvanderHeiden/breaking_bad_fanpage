@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <link href ="styles/styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="img/logo.png" alt="Logo" width="130px"></a></li> <!--Bron: https://www.netflix.com/nl/title/70143836-->
+                <li><a href="intro.html">Introduction</a></li>
+                <li><a href="gang.html">the Gng</a></li>
+                <li><a href="gallery.html">Gllery</a></li>
+                <li><a href="newsletter.html">Newsletter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1>Can't get enough of the show? Sign up for our newsletter!</h1>
+            <p>If you want to stay up-to-date on all the news and rumours surrounding Breaking Bad (and its spinoff: Better Call Saul)
+                be sure to subscribe to our newsletter. Our newsletter is sent out once a week and contains everything from news, rumours,
+                theories, interviews, behind-the-scenes info and much more! You'll also get special deals and discounts on selected 
+                Breaking Bad products and Merchandise. 
+            </p>
+        </article>
+            <form>
+                <div>
+                    <label for="firstname">First Name: </label>
+                    <input type="text" id="firtname" name="firstname" required>
+                </div>
+
+                <div>
+                    <label for="lastname">Last Name: </label>
+                    <input type="text" id="lastname" name="lastname" required>
+                </div>
+
+                <div>
+                    <label for="email">E-Mail: </label>
+                    <input type="email" id="email" name="email" placeholder="i.e. name@gmail.com" required>
+                </div>
+
+                <div>
+                    <label for="telephone">Telephone number: </label>
+                    <input type="tel" id="telephone" name="telephone" placeholder="i.e. 06 12345678">
+                </div>
+
+                <fieldset>
+                    <legend>Bonus Question 1: Who is your favorite Breaking Bad character?</legend>
+                    <input type="radio" id="walterwhite" name="character">
+                    <label for="walterwhite">Walter White</label> <br>
+
+                    <input type="radio" id="jessepinkman" name="character">
+                    <label for="jessepinkman">Jesse Pinkman</label> <br>
+
+                    <input type="radio" id="skylerwhite" name="character">
+                    <label for="skylerwhite">Skyler White</label> <br>
+
+                    <input type="radio" id="hankschrader" name="character">
+                    <label for="hankschrader">Hank Schrader</label> <br>
+
+                    <input type="radio" id="saulgoodman" name="character">
+                    <label for="saulgoodman">Saul Goodman</label> <br>
+
+                    <input type="radio" id="gustavofring" name="character">
+                    <label for="gustavofring">Gustavo Fring</label> <br>
+
+                    <input type="radio" id="mike" name="character">
+                    <label for="mike">Mike Ehrmantraut</label> 
+
+                    
+                </fieldset>
+
+                <div>
+                    <label for="bonus2">Bonus Question 2: Do you have any of your own Breaking Bad theories? Write them down, our 
+                        favorite ones will be featured in the newsletter!</label>
+                        <textarea name="bonus2" id="bonus2"></textarea>
+                </div>
+
+                <fieldset class="noborder">
+                    <input type="checkbox" id="check1" name="check1" value="Age" required>
+                    <label for="check1">I am 18 years or older.</label> <br>
+
+                    <input type="checkbox" id="check2" name="check2" value="Extra">
+                    <label for="check1">Send me extra daily news!</label> <br>
+
+                    <input type="checkbox" id="check3" name="check3" value="Deals">
+                    <label for="check1">I would like personalised news and discount deals!</label>
+                </fieldset>
+                <div>
+                    <button>Sign Me Up</button>
+                </div>
+            </form>
+    </main>
+</body>
+</html>

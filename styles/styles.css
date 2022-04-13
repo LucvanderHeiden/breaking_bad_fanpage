@@ -1,0 +1,158 @@
+@font-face {
+    font-family: BBF;
+    src: url(Heart\ Breaking\ Bad.otf);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #49ce78;
+    color: black;
+    font-family: arial;
+    text-align: center;
+}
+
+article {
+    padding: 0px;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.25em;
+    margin: 0px 200px 0px;
+}
+
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    background-color: #0D3E10;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+li a {
+    display: block;
+    font-family: BBF;
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    padding: 8px 55px 8px 55px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #0c2b03;
+}
+
+li a:active {
+    background-color: #051101;
+}
+
+.rows {
+    display: flex;
+    padding: 10px;
+}
+
+.columns {
+    flex: 40%;
+    padding: 10px;
+    text-align: center;
+}
+
+.columns img {
+    margin: 10px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+span {
+    display: flex;
+    padding: 50px 0px 50px;
+    text-align: left;
+    background-color: #49ce78;
+    width: 100%;
+    color: black;
+}
+
+span img {
+    width: 200px;
+    padding: 5px 30px;
+    border-radius: 50%;
+}
+
+.char-info {
+    color: #bd4a28;
+    width: 80%;
+    font-size: 1.1em;
+}
+
+.char-uneven {
+    background-color: #5aee8e;
+    flex-direction: row-reverse;
+}
+
+form {
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    text-align: left;
+}
+
+input,
+button,
+textarea {
+    font-family: arial;
+    padding: 0.5em;
+}
+
+textarea {
+    height: 75px;
+}
+
+.noborder {
+    border: none;
+}
+
+button {
+    background-color: #0D3E10;
+    color: white;
+    font-weight: bold;
+    padding: 1em;
+    margin: 16px;
+    box-shadow: 4px 4px 4px #051101;
+}
+
+button:active {
+    box-shadow: none;
+    transform: scale(0.95);
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+span p {
+    max-width: 50%;
+    margin: 0px 100px 0px;
+}
+
+span img {
+    width: 175px;
+    height: 175px;
+}
+
+figcaption {
+    font-size: 0.65em;
+    display: none;
+}
